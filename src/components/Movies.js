@@ -55,11 +55,12 @@ function Movies() {
   }, [pageNum]);
 
   return (
-    <div className="bg-gray-300">
-      <div className="text-4xl mb-10 font-bold text-center text-black-800 py-2">
-        Trending Movies 🎬
-      </div>
-
+    <div className="bg-gray-300 ">
+    <div className="bg-white shadow-lg rounded-lg  mx-auto  max-w-10xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+  <div className="text-4xl mb-4  font-bold text-center text-gray-800 py-2">
+    Trending Movies 🎬
+  </div>
+</div>
       <div className="flex flex-wrap">
         {movies.map((movie) => (
           <div
@@ -76,7 +77,7 @@ function Movies() {
             </div>
 
             <div
-              className="text-2xl p-2"
+              className="text-2xl p-2 hidden cursor-pointer"
               style={{ display: hovered === movie.id ? 'block' : 'none' }}
             >
               {watchList.find((m) => m.id === movie.id) === undefined ? (

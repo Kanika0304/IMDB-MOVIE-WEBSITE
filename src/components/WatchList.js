@@ -154,6 +154,13 @@ function WatchList() {
                   <button className="text-red-600" onClick={() => del(movie)}>
                     Delete
                   </button>
+                  </td>
+                  <td>
+                    <button className="text-green-600 cursor-pointer"
+                        onClick={() => window.open('https://www.netflix.com', '_blank')}>
+                          Watch
+                    </button>
+
                 </td>
               </tr>
             ))}
