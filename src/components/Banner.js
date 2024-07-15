@@ -8,7 +8,7 @@ export default function Banner() {
         backgroundImage: 'url(https://media.istockphoto.com/id/1271634353/photo/global-business-network-concept-group-of-businessperson-teamwork-human-resources.jpg?s=612x612&w=0&k=20&c=zSHcRis6OsQ0qF0ANFkLkAsoioN7LUhQsqunKCpD_7w=)',
       }}
     >
-<div className="text-white font-bold text-2xl text-center w-full bg-gray-900 bg-opacity-90">
+<div className="text-white font-bold text-2xl text-center w-full bg-gray-900 bg-opacity-100">
           Hierarchy
       </div>
     </div>
